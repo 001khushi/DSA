@@ -9,7 +9,7 @@ void TOH(int n,char s,char a,char d){
     }
     TOH(n-1,s,d,a);
     count++;
-    cout<<count<<" Move disk "<<n<<" from "<<s<<" to "<<d<<endl;
+    cout<<count<<" Move disk "<<n<<" from "<<s<<" to  "<<d<<endl;
     TOH(n-1,a,s,d);
 }
 int main()
